@@ -1,7 +1,3 @@
-# Example R script
-
-```R
-
 # Install ggplot2 if not already installed
 
 if (!requireNamespace("ggplot2", quietly = TRUE)) {
@@ -35,5 +31,3 @@ y = "Value") +
 scale_color_manual("",
 breaks = c("Random Numbers", "Cumulative Sum"),
 values = c("blue", "red"))
-
-```

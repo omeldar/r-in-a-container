@@ -4,7 +4,7 @@ This setup allows you to work with R in R Studio in the browser.
 
 ## Setup
 
-You will have to install Docker first if you haven't already.
+You will have to install Docker first if you haven't already!
 
 1. Clone repository with
 
@@ -20,18 +20,24 @@ SSH:
 git@github.com:omeldar/r-in-a-container.git
 ```
 
-2. Execute the command below in the git repositories folder. This step might take 2-5 minutes depending on your device's performance.
+2. Execute the command below in the git repositories folder.
 
 ```
 docker compose up -d
 ```
 
+_This step might take up to 5-15 minutes depending on your device's performance and your download speed._
+
 3. When the container has started go to your browser and visit: [http://localhost:8787/](http://localhost:8787/)
 4. Log in with user: **rstudio** and default password: **Init1234**
 
-## Example using R
+## Adding new scripts
 
-[View](EXAMPLE.md)
+If you want to add new scripts to your environment (f.e. after you get them from the teacher). Put the scripts into the `data` directory where you can also find the `example.R` script. You'll see in RStudio on the right bottom side, that another folder scripts will appear, from which you can then load the scripts (that are locally in the `data` folder).
+
+## Example R script
+
+[View](example.R)
 
 ## Installing R packages
 
