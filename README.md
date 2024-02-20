@@ -52,3 +52,5 @@ _Replace 'package-name' with the package you want to install._
 ## Changing user and password
 
 If you want to change the username and password to log in, you can do so in the `docker-compose.yml` under `environment`.
+
+_I did not try this so far, you might need to change it in the Dockerfile too._
