@@ -17,7 +17,12 @@ SSH:
 git@github.com:omeldar/r-in-a-container.git
 ```
 
-2. Execute `docker compose up -d` in the git repositories folder. This step might take 2-5 minutes depending on your device's performance.
+2. Execute the command below in the git repositories folder. This step might take 2-5 minutes depending on your device's performance.
+
+```
+docker compose up -d
+```
+
 3. When the container has started go to your browser and visit: [http://localhost:8787/](http://localhost:8787/)
 4. Log in with user: **rstudio** and default password: **Init1234**
 
