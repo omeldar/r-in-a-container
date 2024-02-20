@@ -9,10 +9,13 @@ You will have to install Docker first if you haven't already.
 1. Clone repository with
 
 HTTPS:
+
 ```
 git clone https://github.com/omeldar/r-in-a-container.git
 ```
+
 SSH:
+
 ```
 git@github.com:omeldar/r-in-a-container.git
 ```
@@ -25,6 +28,10 @@ docker compose up -d
 
 3. When the container has started go to your browser and visit: [http://localhost:8787/](http://localhost:8787/)
 4. Log in with user: **rstudio** and default password: **Init1234**
+
+## Example using R
+
+[View](EXAMPLE.md)
 
 ## Installing R packages
 
