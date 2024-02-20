@@ -1,2 +1,26 @@
-# r-in-a-container
-Setup to develop with R in a container
+# Programming with R in a container
+
+This setup allows you to work with R in R Studio in the browser.
+
+## Setup
+
+You will have to install Docker first if you haven't already.
+
+1. Clone repository with
+
+HTTPS:
+```
+git clone https://github.com/omeldar/r-in-a-container.git
+```
+SSH:
+```
+git@github.com:omeldar/r-in-a-container.git
+```
+
+2. Execute `docker compose up -d` in the git repositories folder. This step might take 2-5 minutes depending on your device's performance.
+3. When the container has started go to your browser and visit: [http://localhost:8787/](http://localhost:8787/)
+4. Log in with user: **rstudio** and default password: **Init1234**
+
+## Changing user and password
+
+If you want to change the username and password to log in, you can do so in the `docker-compose.yml` under `environment`.
